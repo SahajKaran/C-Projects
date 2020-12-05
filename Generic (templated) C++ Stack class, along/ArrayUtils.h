@@ -1,8 +1,6 @@
 //
 //Name-> Sahaj Karan
-//Student number-> 301386551
-//CMPT225 Assignment 2
-//
+
 #include<iostream>
 #include<string>
 using namespace std;
