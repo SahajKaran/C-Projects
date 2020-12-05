@@ -1,8 +1,4 @@
 /*Author-> Sahaj Karan 
-  Student#301386551	
-  Cmpt225 D2 
-  Assignment#1
-*/
 
 #include<string>
 #include<iostream>
