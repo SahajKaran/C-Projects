@@ -1,0 +1,31 @@
+Assignment5-Sahaj Karan
+Std number-301386551
+
+Answer to Question 3
+====================
+
+bool operator == (const Stack& a, const Stack& b) in my opinion can be implemented without changing the parameters of the operator == overloading.
+This can be done if we declare the bool operator as a friend member of the class stack.
+
+As the function passes by const reference.The only way to get data from Stack object is by using existing methods so to do this we use pop and push back.Due to it bein a const reference the compiler will prevent us from modifying the original data we had. The solution to this would be to create a method in Stack class that the compiler know for sure will not modify the objects.
+
+
+The implementation of it would look something like this.
+
+The implementation is from stack overflow and the following is the link to the original souce (I do not take credit for the implementation)
+
+(https://stackoverflow.com/questions/35785231/overloading-for-a-stack-class-using-vectors?fbclid=IwAR07eettcdk5O05n-HFczm7sYKWQYXkhSSdX0LkVpYpwFfc910jCNaLyK14)
+
+class Stack{
+	private://some code
+	
+	public://some code
+	
+	//it allows bool operator== to acces data within the class
+	
+	friend bool operator==(const Stack&, const Stack&);
+};
+bool operator==(const Stack& a, const Stack& b){
+
+	return a.whatever == b.whatever //it will be able to access private from the class stack.
+//from stack overflow.
