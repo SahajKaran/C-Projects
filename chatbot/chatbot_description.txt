@@ -1,0 +1,168 @@
+Chatbot Description
+===================
+STUDENT NAME- SAHAJ KARAN 
+STUDENT ID-301386551
+
+The Interesting thing about my Chatbot is that it can play a game of Would you rather with the user.
+
+Apart from that it tells the user facts related to soccer and basketball it also has a lot of information about the highest paid soccer/basketball players. On running the chatbot if the user enters a greeting such as hello the bot recognizes the greeting and greets the user back if the input entered is not a greeting the bot prompts the user to maybe say hello to it. The chatbot has multiple greetings, facts and information about soccer / basketball players and a few game questions. After the user says hello the chatbot ask how the user is doing. Depending on how the user is feeling the chatbot gives differnt replies asking if the user would like to know a fun fact. If the user types yes the chatbot asks if the user wants a fact about soccer, basketball or even about the players in both the sports or if he would like to play a game depending on what the user enters ths chatbot tells a fact or initiates the game
+based on what the user chooses.
+
+If the user in case enters No the chatbot the user prompts other things that it can do. The chatbot recognizes keywords in the users input and gives a response based on that.All the responses have different variations and are stored in an array of the this is done so that every time the user runs the program the user gets a different experience with the chatbot as the responses are picked randomly.
+
+If the user enters that he is sad. The chatbot replies with a motivational quote to cheer up the user.
+
+Main features are as follows-
+1.)If you type game it initiates a game of would you rather.
+2.)Telling basketball facts.
+3.)Telling soccer facts.
+4.)Telling about highest paid players in basketball and in soccer.
+5.)Tell a motivational quote if the user says he is sad.
+
+You can play with the chatbot a game of Would You rather if you say game.
+You can keep asking it more facts by saying yes when in the facts section about a particular topic
+You can stop the chatbot from giving facts and it will tell what else it could tell you about.
+It prints a goodbye message when you say bye to it and stops the program as well.
+It tells you how it feels if you ask it how are you?
+It also tells you what it can do if you ask him what can you do?
+It also prints a special message if you react to its fact with a wow.
+It also replies to Thank you's if you liked the quote or the fact.
+
+The following are example example transcripts.
+// sample 1.
+You> what
+Chatty> A hi would be nice ?
+
+You> hey
+Chatty> Hello.Chatty this side a fun fact about me is i know alot of sports related facts and I can play a game with you if you say game. Anyways How are you doing?
+
+You> i am good
+Chatty> Fantastic I feel the same. Would you like to know fun facts about soccer by any chance
+
+You> how are you?
+Chatty> I am happy today. Would you like to know a fact about soccer?
+
+You> no
+Chatty> Um ok. Well I have information about certain players if you would like to know about them just say player or I could tell you facts about socccer or basketball
+
+You> what can you do?
+Chatty> Not much but if you say soccer facts i will give you soccer facts, if you say basketball facts I will give you basketball facts, if you say players I will give you player facts.If you say game then we can play a game of would you rather as well
+
+You> tell me soccer facts
+Chatty> Until 1913, Goalies did not wear different colored shirts from their teammates. Say yes if you want more facts based on soccer
+
+You> yes
+Chatty> A referee’s call during a football match in Peru caused a riot that killed over 300 people and injured over 500 people  in 1964. Say yes if you want more facts based on soccer
+
+You> stop
+Chatty> Ok i will stop for now.Just say basketball or soccer facts if you would like to know more?
+
+You> i want to play a game
+The name of the game is Would You Rather
+To stop the game just enter stop
+Chatty> Would you rather lose the ability to read or lose the ability to speak? Just say left or right as your ans.
+
+You> left
+Yea I feel the same ability to speak for the win.
+Chatty> Would you rather be covered in fur or covered in scales? Just say left or right as your ans.
+
+You> right
+What will you do with snake skin lol.
+Chatty> Would you rather be in jail for a year or lose a year off your life? Just say left or right as your ans.
+
+You> stop
+Chatty> That was fun
+
+You> what is your name?
+Chatty> My name is Chatty
+
+You> i am sad
+Chatty> Cheer up, my dear. After every storm comes the sun. Happiness is waiting for you ahead.
+
+You> wow
+Chatty> I had the same reaction haha.
+
+You> thank you
+Chatty> You are welcome.
+
+You> bye
+Going already :( Take care. See you again soon.
+
+
+//Sample 2
+You> what is your name?
+Chatty> My name is Chatty
+
+You> what can you do? 
+Chatty> Not much but if you say soccer facts i will give you soccer facts, if you say basketball facts I will give you basketball facts, if you say players I will give you player facts.If you say game then we can play a game of would you rather as well
+
+You> give me soccer facts
+Chatty> The total length of the football field is 100 yards. Say yes if you want more facts based on soccer
+
+You> yes
+Chatty> A referee’s call during a football match in Peru caused a riot that killed over 300 people and injured over 500 people  in 1964. Say yes if you want more facts based on soccer
+
+You> wow
+I had the same reaction xd
+Chatty> Ok i will stop for now.Just say basketball or soccer facts if you would like to know more?
+
+You> bye
+Going already :( Take care. See you again soon.⏎  
+
+
+//Sample 3
+You> hey
+Chatty> Hello.Chatty this side a fun fact about me is i know alot of sports related facts. How are you doing?
+
+You> i am sad
+Chatty> Let us be of good cheer, however, remembering that the misfortunes hardest to bear are those which never come.
+
+You> thank you 
+Chatty> You are welcome.
+
+You> bye
+Going already :( Take care. See you again soon.
+
+
+//Sample 4
+You> hello
+Chatty> Hello.Chatty this side a fun fact about me is i know alot of sports related facts and I can play a game with you if you say game. Anyways How are you doing?
+
+You> good
+Chatty> Amazing. Want me to tell you fun facts about soccer?
+
+You> no
+Chatty> Um ok. Well I have information about certain players if you would like to know about them just say player or I could tell you facts about socccer or basketball
+
+You> what can you do?
+Chatty> Not much but if you say soccer facts i will give you soccer facts, if you say basketball facts I will give you basketball facts, if you say players I will give you player facts.If you say game then we can play a game of would you rather as well
+
+You> game
+The name of the game is Would You Rather
+To stop the game just enter stop
+Chatty> Would you rather lose the ability to read or lose the ability to speak? Just say left or right as your ans.
+
+You> left
+Yea I feel the same ability to speak for the win.
+Chatty> Would you rather be covered in fur or covered in scales? Just say left or right as your ans.
+
+You> right
+What will you do with snake skin lol.
+Chatty> Would you rather be in jail for a year or lose a year off your life? Just say left or right as your ans.
+
+You> left
+I prefer the jail option as well. You know go get ripped better then losing a year.
+Chatty> Would you rather know the history of every object you touched or be able to talk to animals? Just say left or right as your ans.
+
+You> stop
+Chatty> That was fun
+
+You> give me soccer facts
+Chatty> Until 1913, Goalies did not wear different colored shirts from their teammates. Say yes if you want more facts based on soccer
+
+You> wow
+I had the same reaction xd
+Chatty> Ok i will stop for now.Just say basketball or soccer facts if you would like to know more?
+
+You> bye
+Going already :( Take care. See you again soon.⏎ 
