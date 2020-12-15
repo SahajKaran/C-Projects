@@ -1,0 +1,12 @@
+Question 2
+===========
+
+Out of S1,S2,S3 the most efficient and the best is S3.
+
+The reason behind this ans is as follows S1 uses recursion and S2 uses for loops to equate the value.
+
+Where as S3 is more efficient because it uses a arithmetic algorithm to find the value which is lesser work in comparision to using for loops or even recursion as they find the values in multiple iterations and our S3 is able to solve it in one iteration. 
+
+Also the complexity of S1 and S2 is of O(n) and the complexity for S3 it is O(1) this is because we are using a formula that just requires inputs in form of 3 numbers and doesnt have for loops or recursion being used hence S3 is the most efficient.
+
+Apart from that it is the most readable out the 3 and is the easiest to code as well.
