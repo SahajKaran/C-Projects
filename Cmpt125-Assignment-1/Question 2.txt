@@ -1,0 +1,34 @@
+File by -> Sahaj Karan
+Student number -> 301386551
+Cmpt125-Assignment1
+
+Answer to Question 2
+====================
+
+1.Problem -> The is no consistency to coding style in some lines of the code the author uses for example: The author uses K&R style for the first 
+(if) statement but swtiches to Allman style right after in for the While loops. Which make the brackets and the indentation harder to read for the user.
+Solution->Use consistent style of coding so stick to either K&R stye or any other that the user prefers and long as it is consistent throughout.
+
+
+2.Problem-> The organization of the brackets in the the nested while loop are confusing for example in line 13 the user has no brackets for the i++ but in the next while loop he adds brackets to the j-- which makes the code not as cleas as it could be and makes it harder to read as the brackets are not organized 
+Solution->Make brackets consistent either remove the curly brackets from j-- or add them to i++ so it is more organised and less confusing.
+
+
+3.Problem-> The author make no use of comments for example in line 26 of the code the author writes three lines of code to swap the variables and and little comment could have told us what he was intending to do instead of leaving it to the other coder to figure out.
+Solution->Just add comments explaining what the code does and what it achieves.
+
+
+4.Problem->The indentation can be better as well in line 19 the if statement does not need to be indented and can be on an equal level as the while statement above it which makes it less confusing.
+Solution->Indent the if statement on the same level as the while statement above it
+
+
+5.Probelem->The author also does not comment in that the function is calling itself to sort the array. Which makes it a recursive function so a comment to tell that could be added will make it less confusing for other coders and will improve readibility.
+Solution->Adding a simple comment to tell the person viewing the code that we are using recursion.
+
+
+6.Problem->The code grouping could have been better it would have been nice to keep seperate tasks within seperate blocks of the code so it make it easier to read.For example in line 26 the author perfoms the task of swapping variables and right after it he performs the task on line 29 this could possibly make it harder for other coders to understand.
+Solution-> Adding space between both tasks would do the job as they will be easily visible as seperate tasks.
+
+
+7.Problem->The parameters used in the function could be better like we know the values of first and and last are going to be constant as first will always be index zero and the last will be the size of the array given to the function through out the function call.
+Solution-> We can use constant int in the parameters.
